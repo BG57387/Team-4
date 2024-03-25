@@ -8,8 +8,6 @@ TEAM MEMBERS
 
 Ashley Park @ap86129
 
-Dylan Archibald @dylanarch
-
 Izzie Paden @izziepaden
 
 Carter Kowlaski @carterKowalski1
