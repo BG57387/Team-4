@@ -6,7 +6,7 @@ TEAM NAME
 
 TEAM MEMBERS 
 
-  Ashley Park  @ap86129
-  Izzie Paden @izziepaden
-  Carter Kowlaski @carterKowalski1
-  Bharat Gupta @BG57387
+@ap86129
+@izziepaden
+@carterKowalski1
+@BG57387
