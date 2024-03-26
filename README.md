@@ -5,7 +5,7 @@ TEAM NAME
 
 TEAM MEMBERS 
 
-Ashley Park @ap86129
+[Ashley Park] (https://github.com/ap86129)
 Izzie Paden @izziepaden
 Carter Kowalski @carterKowalski1
 Bharat Gupta @BG57387
