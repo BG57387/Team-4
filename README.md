@@ -5,7 +5,10 @@ TEAM NAME
 
 TEAM MEMBERS 
 
-[Ashley Park](https://github.com/ap86129)__
+[Ashley Park](https://github.com/ap86129)
+
 [IzziePaden](https://github.com/izziepaden)
+
 [Carter Kowalski](https://github.com/carterkowalski1)
+
 [Bharat Gupta](https://github.com/BG57387)
