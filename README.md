@@ -1,12 +1,11 @@
 # Team-4
 MIST 4610, Team 4 Project
 
-
 TEAM NAME 
 
 TEAM MEMBERS 
 
-@ap86129
-@izziepaden
-@carterKowalski1
-@BG57387
+Ashley Park @ap86129
+Izzie Paden @izziepaden
+Carter Kowalski @carterKowalski1
+Bharat Gupta @BG57387
