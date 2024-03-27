@@ -38,43 +38,6 @@ Social Events, vibrant gatherings sponsored by business entities, showcase a one
 Lastly, Staff Members' schedules are intricately managed, presenting a one-to-many relationship with Staff Schedules. Each staff member has a specific schedule, defining their roles, shifts, and duties. This comprehensive model is crafted to ensure a seamless and integrated operation of the club, ensuring a cohesive experience for all, from the ostrich races to the social events, all within our racing facilities.
 
 
-# **Data Dictionary**
-<img width="745" alt="Screenshot 2024-03-27 at 3 54 12 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/cb690f51-312f-4e9d-bfda-fecbc94e083f">
-<br/>
-<br/>
-<img width="757" alt="Screenshot 2024-03-27 at 3 54 35 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/9c45df1c-d580-4f9a-ae55-84ebacf16052">
-<br/>
-<br/>
-<img width="757" alt="Screenshot 2024-03-27 at 3 54 59 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/38318c79-f98c-4755-a7ce-dc010044f8e7">
-<br/>
-<br/>
-<img width="745" alt="Screenshot 2024-03-27 at 3 55 23 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/e33130a5-f1ec-43f2-883d-ec8a427baf6a">
-<br/>
-<br/>
-<img width="758" alt="Screenshot 2024-03-27 at 3 55 37 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/e835b279-e151-4284-8976-ad3b11af00a8">
-<br/>
-<br/>
-<img width="746" alt="Screenshot 2024-03-27 at 3 55 54 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/8fda75f1-483b-4215-9107-6e6a419aaefe">
-<br/>
-<br/>
-<img width="745" alt="Screenshot 2024-03-27 at 3 56 08 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/84692764-52fe-4a5f-9d62-b81f6cc1e150">
-<br/>
-<br/>
-<img width="747" alt="Screenshot 2024-03-27 at 3 56 25 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/d63f9a97-efcd-4f4e-8dfc-6613b28527ae">
-<br/>
-<br/>
-<img width="721" alt="Screenshot 2024-03-27 at 3 56 40 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/90a23db1-9030-476a-bb3d-7ff5e470e418">
-<br/>
-<br/>
-<img width="738" alt="Screenshot 2024-03-27 at 3 56 53 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/28ac4179-5e63-4f55-93d4-ccdc9b4d2d0c">
-<br/>
-<br/>
-<img width="736" alt="Screenshot 2024-03-27 at 3 57 10 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/e6e5ee20-eff9-481f-a6f2-e8ce4cf6b47a">
-<br/>
-<br/>
-<img width="734" alt="Screenshot 2024-03-27 at 3 57 31 PM" src="https://github.com/carterkowalski1/MIST4610_Project_Team_4/assets/141380431/5a8992c1-b98b-4945-b4e6-3ccee3181b97">
-<br/>
-<br/>
 
 # **Queries**
 
