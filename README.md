@@ -1,4 +1,4 @@
-# Team Name 21484 Projects
+# Team Name 21484 Project
 MIST 4610, Team 4 Project #1
 <br/>
 <br/>
