@@ -83,7 +83,8 @@ Managers in the ostrich racing industry would find this query essential as it al
 
 
 Query 6 write a query to display the trainers who have trained male ostriches<br>
-<img width="808" alt="Screenshot 2024-03-27 at 11 14 29 AM" src="https://github.com/BG57387/Team-4/assets/150160324/8988ecc3-1a3e-4f74-b4a0-1756568a67b9">
+<img width="807" alt="Screenshot 2024-03-27 at 3 54 04 PM" src="https://github.com/BG57387/Team-4/assets/150160324/ea9a764f-2080-45b2-bdf9-3a2cf02a40e3">
+
 
 Justification:<br/>
 Managers in the ostrich racing industry would be interested in this query as it provides a list of trainers who have trained male ostriches. Understanding which trainers specialize in training male ostriches can help managers in assigning trainers to specific birds based on their expertise and the specific needs of the racing stable. This information ensures that trainers are matched with ostriches in a way that maximizes training effectiveness and overall performance, contributing to the success of the racing team.
