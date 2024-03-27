@@ -12,7 +12,8 @@ TEAM MEMBERS
 
 
 **Problem Description**:<br/>
-The project at hand is to conceptualize and develop a relational database for the dynamic operations of an Ostrich Racing Club. This database is structured around the central entity of the Ostrich table. Ostrich being each bird that is raced in the racing events hosted. In parallel, the Facility entity is crucial as it details each racing arena and training ground we maintain. Alongside these, we track the Visitor entity to log guests and bettors attending races, their interactions, and preferences. Critical associations include linking Ostriches to their Trainers, Races they participate in, and the Results they achieve, as well as connecting Visitors to the Events they attend. The database will store comprehensive data on these entities and their attributes to simulate real-world scenarios. We aim to deploy advanced queries from the data, offering deep insights into club operations, visitor engagement, and other relationships occurring in the racing club.  The ultimate goal is to leverage this database to streamline all functions of the races and related events.
+The project at hand is to conceptualize and develop a relational database for the dynamic operations of an Ostrich Racing Club. This database is structured around the central entity of the Ostrich table. Ostrich being each bird that is raced in the racing events hosted. In parallel, the Facility entity is crucial as it details each racing arena and training ground we maintain. Alongside these, we track the Visitor entity to log guests and bettors attending races, their interactions, and preferences. Critical associations include linking Ostriches to their Trainers, Races they participate in, and the Results they achieve
+, as well as connecting Visitors to the Events they attend. The database will store comprehensive data on these entities and their attributes to simulate real-world scenarios. We aim to deploy advanced queries from the data, offering deep insights into club operations, visitor engagement, and other relationships occurring in the racing club.  The ultimate goal is to leverage this database to streamline all functions of the races and related events.
 
 To create a coherent data model for an ostrich racing club, understanding the relationships between entities is crucial. Here's an outline of potential relationships within the given entities:<br/>
 These relationships form the backbone of the database and dictate how data is interconnected. Properly defined relationships ensure the database is normalized, reducing redundancy and improving data integrity. For each Many-to-Many relationship, a junction (or associative) table is necessary to handle the associations between the entities effectively.
@@ -49,3 +50,18 @@ Query 4<br>
 
 Query 5<br>
 <img width="805" alt="Screenshot 2024-03-27 at 11 13 26 AM" src="https://github.com/BG57387/Team-4/assets/150160324/6dd0aa17-12f4-45dc-965a-d0751bca53f5">
+
+Query 6<br>
+<img width="808" alt="Screenshot 2024-03-27 at 11 14 29 AM" src="https://github.com/BG57387/Team-4/assets/150160324/8988ecc3-1a3e-4f74-b4a0-1756568a67b9">
+
+Query 7<br>
+<img width="816" alt="Screenshot 2024-03-27 at 11 15 17 AM" src="https://github.com/BG57387/Team-4/assets/150160324/f4c62696-5256-4bd5-854c-7107d9a4e9df">
+
+Query 8<br>
+<img width="814" alt="Screenshot 2024-03-27 at 11 15 45 AM" src="https://github.com/BG57387/Team-4/assets/150160324/2c03d413-77e3-4495-8317-0fb2556d3cdf">
+
+Query 9<br>
+<img width="818" alt="Screenshot 2024-03-27 at 11 25 20 AM" src="https://github.com/BG57387/Team-4/assets/150160324/88771c15-c459-48a0-8e40-2da64d75974b">
+
+Query 10<br>
+<img width="813" alt="Screenshot 2024-03-27 at 11 26 08 AM" src="https://github.com/BG57387/Team-4/assets/150160324/07bf9d3a-adea-4034-9e72-966dab725fed">
