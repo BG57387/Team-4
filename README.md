@@ -35,6 +35,13 @@ Social Events, vibrant gatherings sponsored by business entities, showcase a one
 
 Lastly, Staff Members' schedules are intricately managed, presenting a one-to-many relationship with Staff Schedules. Each staff member has a specific schedule, defining their roles, shifts, and duties. This comprehensive model is crafted to ensure a seamless and integrated operation of the club, ensuring a cohesive experience for all, from the ostrich races to the social events, all within our racing facilities.
 
+**Data Dictionary**
+
+<img width="535" alt="Screenshot 2024-03-27 at 2 31 56 PM" src="https://github.com/BG57387/Team-4/assets/150160324/fd31a46e-b3f6-454a-8845-e7752660c564">
+
+
+
+**Qureies**
 
 Query 1 list out the number of races held at each location <br/>
 <img width="809" alt="Screenshot 2024-03-27 at 11 09 25 AM" src="https://github.com/BG57387/Team-4/assets/150160324/a2cfa106-de51-46f4-b553-64e86982af0e">
