@@ -39,6 +39,7 @@ Lastly, Staff Members' schedules are intricately managed, presenting a one-to-ma
 
 <img width="535" alt="Screenshot 2024-03-27 at 2 31 56 PM" src="https://github.com/BG57387/Team-4/assets/150160324/fd31a46e-b3f6-454a-8845-e7752660c564">
 
+<img width="323" alt="Screenshot 2024-03-27 at 2 33 21 PM" src="https://github.com/BG57387/Team-4/assets/150160324/71d8937f-e04d-48e8-ada1-2d44eb1a934e">
 
 
 **Qureies**
