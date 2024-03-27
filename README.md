@@ -36,7 +36,7 @@ Social Events, vibrant gatherings sponsored by business entities, showcase a one
 Lastly, Staff Members' schedules are intricately managed, presenting a one-to-many relationship with Staff Schedules. Each staff member has a specific schedule, defining their roles, shifts, and duties. This comprehensive model is crafted to ensure a seamless and integrated operation of the club, ensuring a cohesive experience for all, from the ostrich races to the social events, all within our racing facilities.
 
 
-Query 1 #1 list out the number of races held at each location <br/>
+Query 1 list out the number of races held at each location <br/>
 <img width="809" alt="Screenshot 2024-03-27 at 11 09 25 AM" src="https://github.com/BG57387/Team-4/assets/150160324/a2cfa106-de51-46f4-b553-64e86982af0e">
 
 Justification:<br/>
@@ -58,23 +58,52 @@ Justification:<br/>
 Managers in the racing industry find the results of this query crucial as it provides insights into the typical crowd size at racing events. This information aids in revenue forecasting by allowing managers to adjust pricing and marketing strategies accordingly. Additionally, it helps in facility management by informing decisions regarding seating arrangements, amenities, and overall event planning to enhance the spectator experience and ensure the efficient utilization of resources.
 
 
-Query 4<br/>
+Query 4 list out the number of races won by each ostrich in a specfic year<br/>
 <img width="815" alt="Screenshot 2024-03-27 at 11 12 13 AM" src="https://github.com/BG57387/Team-4/assets/150160324/8ff4e684-02b7-49a0-a4e8-7fa295b91aa2">
 
-Query 5<br>
+Justification:<br/>
+Managers in the ostrich racing industry find this query relevant as it provides insights into the performance of individual ostriches by tracking their podium finishes in races within a specific year. This data enables managers to evaluate the competitiveness of ostriches, engage fans by highlighting successful performers, and make strategic decisions regarding breeding programs and resource allocation to nurture and train competitive racing ostriches. Ultimately, understanding podium finishes contributes to enhancing performance, fan engagement, and strategic planning for the long-term success of ostrich racing endeavors.
+
+
+Query 5 write a query to list out the top performing trainers by win percentage <br>
 <img width="805" alt="Screenshot 2024-03-27 at 11 13 26 AM" src="https://github.com/BG57387/Team-4/assets/150160324/6dd0aa17-12f4-45dc-965a-d0751bca53f5">
 
-Query 6<br>
+Justification:<br/>
+Managers in the ostrich racing industry would find this query essential as it allows them to identify top-performing trainers based on win percentage, enabling evaluation of training effectiveness. By recognizing trainers who consistently produce winning ostriches, managers can allocate resources more effectively and replicate successful training methods. Additionally, this information can lead to opportunities for strategic partnerships, enhancing the competitiveness of racing teams and attracting sponsors.
+
+
+Query 6 write a query to display the trainers who have trained male ostriches<br>
 <img width="808" alt="Screenshot 2024-03-27 at 11 14 29 AM" src="https://github.com/BG57387/Team-4/assets/150160324/8988ecc3-1a3e-4f74-b4a0-1756568a67b9">
 
-Query 7<br>
+Justification:<br/>
+Managers in the ostrich racing industry would be interested in this query as it provides a list of trainers who have trained male ostriches. Understanding which trainers specialize in training male ostriches can help managers in assigning trainers to specific birds based on their expertise and the specific needs of the racing stable. This information ensures that trainers are matched with ostriches in a way that maximizes training effectiveness and overall performance, contributing to the success of the racing team.
+
+
+Query 7 Write a query to list out  staff member ID, name, and the date of their shift who worked a shift in 2015 in asecnding order<br>
 <img width="816" alt="Screenshot 2024-03-27 at 11 15 17 AM" src="https://github.com/BG57387/Team-4/assets/150160324/f4c62696-5256-4bd5-854c-7107d9a4e9df">
 
-Query 8<br>
+Justification:<br/>
+Managers in the racing industry would be interested in this query as it provides a record of staff members who worked shifts in 2015. Tracking employee attendance and performance is crucial for ensuring operational efficiency and compliance with labor regulations. Additionally, analyzing historical staffing data allows managers to identify trends, anticipate future staffing needs, and optimize workforce planning strategies.
+
+
+
+Query 8 write a query to display the managers that were hired in 2015<br>
 <img width="814" alt="Screenshot 2024-03-27 at 11 15 45 AM" src="https://github.com/BG57387/Team-4/assets/150160324/2c03d413-77e3-4495-8317-0fb2556d3cdf">
 
-Query 9<br>
+Justification:<br/>
+Managers in the racing industry would be interested in this query as it provides a record of managers hired in 2015. Tracking new managerial hires allows for maintaining accurate personnel records and understanding changes in the organizational structure. Additionally, assessing turnover rates among managerial staff and evaluating the performance of newly appointed managers are crucial for leadership stability and organizational effectiveness.
+
+
+Query 9 Write a query to list out the number of races that each ostrich has particpated in<br>
 <img width="818" alt="Screenshot 2024-03-27 at 11 25 20 AM" src="https://github.com/BG57387/Team-4/assets/150160324/88771c15-c459-48a0-8e40-2da64d75974b">
 
-Query 10<br>
+Justification:<br/>
+Managers in the racing industry would find this query valuable as it provides insights into the racing experience of individual ostriches. Understanding the number of races each ostrich has participated in allows for performance evaluation, targeted training programs, and effective resource allocation. By analyzing race participation data, managers can optimize the performance and welfare of their racing ostriches, ultimately enhancing the competitiveness and success of their racing operations.
+
+
+Query 10 list out the sponosors along with the events that they have sponsored<br>
 <img width="813" alt="Screenshot 2024-03-27 at 11 26 08 AM" src="https://github.com/BG57387/Team-4/assets/150160324/07bf9d3a-adea-4034-9e72-966dab725fed">
+
+Justification:<br/>
+Managers in the racing industry would find this query crucial as it provides insights into sponsorship relationships and their impact on events. By identifying sponsors and the events they have sponsored, managers can effectively track partnership agreements, assess the financial impact of sponsorships, and tailor event planning strategies to meet sponsor expectations. This data enables managers to optimize sponsorship revenue, enhance event promotion, and foster mutually beneficial partnerships that contribute to the success and profitability of racing events.
+
