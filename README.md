@@ -36,10 +36,56 @@ Visitors, vital to the club's vibrancy, partake in these races, manifesting a ma
 Social Events, vibrant gatherings sponsored by business entities, showcase a one-to-many relationship with Sponsors, who support various events to enhance their visibility and engagement. These events also connect to Staff Members through a many-to-many relationship, reflecting the myriad of roles staff undertake during events, from coordination to execution.
 
 Lastly, Staff Members' schedules are intricately managed, presenting a one-to-many relationship with Staff Schedules. Each staff member has a specific schedule, defining their roles, shifts, and duties. This comprehensive model is crafted to ensure a seamless and integrated operation of the club, ensuring a cohesive experience for all, from the ostrich races to the social events, all within our racing facilities.
+<br/>
+
+
+# **Data Dictionary**
+<img width="742" alt="Screenshot 2024-03-27 at 4 12 11 PM" src="https://github.com/BG57387/Team-4/assets/141380431/56bb40fa-c172-4efd-921b-b1e84654019d">
+<br/>
+<br/>
+<img width="756" alt="Screenshot 2024-03-27 at 4 12 24 PM" src="https://github.com/BG57387/Team-4/assets/141380431/1573ca92-8f70-4b7f-a482-1ae48bb27d32">
+<br/>
+<br/>
+<img width="757" alt="Screenshot 2024-03-27 at 4 12 40 PM" src="https://github.com/BG57387/Team-4/assets/141380431/499d6274-4778-480d-8df7-a43fa150782f">
+<br/>
+<br/>
+<img width="745" alt="Screenshot 2024-03-27 at 4 12 58 PM" src="https://github.com/BG57387/Team-4/assets/141380431/1addd1e0-feb1-4aa2-a718-4d38f6328ce0">
+<br/>
+<br/>
+<img width="757" alt="Screenshot 2024-03-27 at 4 13 12 PM" src="https://github.com/BG57387/Team-4/assets/141380431/47646687-3027-4212-94cc-6a89b266babf">
+<br/>
+<br/>
+<img width="745" alt="Screenshot 2024-03-27 at 4 13 24 PM" src="https://github.com/BG57387/Team-4/assets/141380431/5903b6cd-ad2b-4983-94cd-f9cf336120f9">
+<br/>
+<br/>
+<img width="746" alt="Screenshot 2024-03-27 at 4 13 36 PM" src="https://github.com/BG57387/Team-4/assets/141380431/8f83e6c2-7e84-4a6d-8aeb-b7be1a4f593d">
+<br/>
+<br/>
+<img width="747" alt="Screenshot 2024-03-27 at 4 13 48 PM" src="https://github.com/BG57387/Team-4/assets/141380431/e58ca9d4-67a3-4df0-bc2f-52261f8029d7">
+<br/>
+<br/>
+<img width="719" alt="Screenshot 2024-03-27 at 4 13 58 PM" src="https://github.com/BG57387/Team-4/assets/141380431/f84294cc-422e-4c83-864d-00ed1c74f469">
+<br/>
+<br/>
+<img width="737" alt="Screenshot 2024-03-27 at 4 15 48 PM" src="https://github.com/BG57387/Team-4/assets/141380431/a4a03b3e-39eb-404b-9608-3f3556d64781">
+<br/>
+<br/>
+<img width="737" alt="Screenshot 2024-03-27 at 4 15 58 PM" src="https://github.com/BG57387/Team-4/assets/141380431/257715d7-2bc2-495a-9d94-5e908e3effdc">
+<br/>
+<br/>
+<img width="735" alt="Screenshot 2024-03-27 at 4 16 11 PM" src="https://github.com/BG57387/Team-4/assets/141380431/a24f8c85-ddf8-4897-acd3-522dfa73d102">
+<br/>
+<br/>
+
+
+
 
 
 
 # **Queries**
+<img width="722" alt="Screenshot 2024-03-27 at 4 16 25 PM" src="https://github.com/BG57387/Team-4/assets/141380431/3e2964c7-8037-4f7b-981b-86df774566f0">
+<br/>
+<br/>
 
 Query 1 list out the number of races held at each location in descending order. This SQL query joins the "Races" and "Facilities" tables based on the facility ID, calculates the total number of races for each facility, and orders the result set by the total number of races in descending order. It provides a breakdown of race counts for each facility, allowing for easy identification of locations with the most races conducted. <br/>
 <img width="809" alt="Screenshot 2024-03-27 at 11 09 25 AM" src="https://github.com/BG57387/Team-4/assets/150160324/a2cfa106-de51-46f4-b553-64e86982af0e">
