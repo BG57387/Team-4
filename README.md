@@ -36,16 +36,29 @@ Social Events, vibrant gatherings sponsored by business entities, showcase a one
 Lastly, Staff Members' schedules are intricately managed, presenting a one-to-many relationship with Staff Schedules. Each staff member has a specific schedule, defining their roles, shifts, and duties. This comprehensive model is crafted to ensure a seamless and integrated operation of the club, ensuring a cohesive experience for all, from the ostrich races to the social events, all within our racing facilities.
 
 
-Query 1<br>
+Query 1 #1 list out the number of races held at each location <br/>
 <img width="809" alt="Screenshot 2024-03-27 at 11 09 25 AM" src="https://github.com/BG57387/Team-4/assets/150160324/a2cfa106-de51-46f4-b553-64e86982af0e">
 
-Query 2<br>
+Justification:<br/>
+Managers in the racing industry benefit from knowing the frequency of races held at each facility as it allows for more efficient resource allocation, including staffing and equipment maintenance. This information also guides revenue generation strategies by focusing marketing efforts on locations with a higher number of races to maximize ticket sales and sponsorships. Additionally, analyzing race frequency aids in assessing customer engagement and optimizing facility utilization to improve overall profitability.
+
+
+
+Query 2 list out the average age of ostriches participating in races <br/>
 <img width="811" alt="Screenshot 2024-03-27 at 11 10 29 AM" src="https://github.com/BG57387/Team-4/assets/150160324/ccaa08a5-80e1-458a-9680-f208fef28ea4">
 
-Query 3<br>
+Justification:<br/>
+Managers overseeing ostrich racing events or facilities would find the results of this query pertinent as it provides insights into the age demographics of participating ostriches. This information enables managers to ensure the welfare of the animals by assessing whether age distributions align with ethical standards and regulations. Additionally, understanding the average age aids in performance analysis, healthcare management, and strategic planning for breeding and recruitment to sustain the longevity and competitiveness of ostrich racing.
+
+
+Query 3 list out the average attendance per race<br/> 
 <img width="805" alt="Screenshot 2024-03-27 at 11 11 13 AM" src="https://github.com/BG57387/Team-4/assets/150160324/2111d6e9-cbc1-4e29-b172-aada45dd8d29">
 
-Query 4<br>
+Justification:<br/>
+Managers in the racing industry find the results of this query crucial as it provides insights into the typical crowd size at racing events. This information aids in revenue forecasting by allowing managers to adjust pricing and marketing strategies accordingly. Additionally, it helps in facility management by informing decisions regarding seating arrangements, amenities, and overall event planning to enhance the spectator experience and ensure the efficient utilization of resources.
+
+
+Query 4<br/>
 <img width="815" alt="Screenshot 2024-03-27 at 11 12 13 AM" src="https://github.com/BG57387/Team-4/assets/150160324/8ff4e684-02b7-49a0-a4e8-7fa295b91aa2">
 
 Query 5<br>
