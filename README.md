@@ -46,7 +46,7 @@ Lastly, Staff Members' schedules are intricately managed, presenting a one-to-ma
 
 # **Queries**
 
-Query 1 list out the number of races held at each location <br/>
+Query 1 list out the number of races held at each location in descending order. This SQL query joins the "Races" and "Facilities" tables based on the facility ID, calculates the total number of races for each facility, and orders the result set by the total number of races in descending order. It provides a breakdown of race counts for each facility, allowing for easy identification of locations with the most races conducted. <br/>
 <img width="809" alt="Screenshot 2024-03-27 at 11 09 25 AM" src="https://github.com/BG57387/Team-4/assets/150160324/a2cfa106-de51-46f4-b553-64e86982af0e">
 
 Justification:<br/>
@@ -54,35 +54,35 @@ Managers in the racing industry benefit from knowing the frequency of races held
 
 
 
-Query 2 list out the average age of ostriches participating in races <br/>
+Query 2 list out the average age of ostriches participating in races. This SQL query calculates the average age of ostriches that have participated in races. It achieves this by selecting the average value of the "ostrichAge" column from the "Ostriches" table, filtered by the condition that there exists a corresponding record in the "Ostriches_has_Races" table where the ostrich ID matches. In essence, it computes the average age of ostriches that have been involved in races.<br/>
 <img width="811" alt="Screenshot 2024-03-27 at 11 10 29 AM" src="https://github.com/BG57387/Team-4/assets/150160324/ccaa08a5-80e1-458a-9680-f208fef28ea4">
 
 Justification:<br/>
 Managers overseeing ostrich racing events or facilities would find the results of this query pertinent as it provides insights into the age demographics of participating ostriches. This information enables managers to ensure the welfare of the animals by assessing whether age distributions align with ethical standards and regulations. Additionally, understanding the average age aids in performance analysis, healthcare management, and strategic planning for breeding and recruitment to sustain the longevity and competitiveness of ostrich racing.
 
 
-Query 3 list out the average attendance per race<br/> 
+Query 3 list out the average attendance per race. This SQL query calculates the average attendance across all races. It selects the average value of the "attendance" column from the "Races" table and aliases it as "AverageAttendance". Essentially, it provides the mean attendance figure for all recorded races in the database.<br/> 
 <img width="805" alt="Screenshot 2024-03-27 at 11 11 13 AM" src="https://github.com/BG57387/Team-4/assets/150160324/2111d6e9-cbc1-4e29-b172-aada45dd8d29">
 
 Justification:<br/>
 Managers in the racing industry find the results of this query crucial as it provides insights into the typical crowd size at racing events. This information aids in revenue forecasting by allowing managers to adjust pricing and marketing strategies accordingly. Additionally, it helps in facility management by informing decisions regarding seating arrangements, amenities, and overall event planning to enhance the spectator experience and ensure the efficient utilization of resources.
 
 
-Query 4 list out the number of races won by each ostrich in a specfic year<br/>
+Query 4 list out the number of races won by each ostrich in a specfic year. This SQL query retrieves the total number of podium finishes for each ostrich, considering only those ostriches that have achieved at least one podium finish. It accomplishes this by joining the "Ostriches," "Ostriches_has_Races," "Races," and "Race_Results" tables, linking ostriches to their race participation and race results. The query then calculates the sum of podium finishes (1st, 2nd, and 3rd positions) for each ostrich, groups the results by ostrich ID and name, filters out ostriches with no podium finishes, and finally sorts the results in descending order based on the total number of podium finishes. Essentially, it provides a ranking of ostriches based on their success in achieving podium positions in races.<br/>
 <img width="815" alt="Screenshot 2024-03-27 at 11 12 13 AM" src="https://github.com/BG57387/Team-4/assets/150160324/8ff4e684-02b7-49a0-a4e8-7fa295b91aa2">
 
 Justification:<br/>
 Managers in the ostrich racing industry find this query relevant as it provides insights into the performance of individual ostriches by tracking their podium finishes in races within a specific year. This data enables managers to evaluate the competitiveness of ostriches, engage fans by highlighting successful performers, and make strategic decisions regarding breeding programs and resource allocation to nurture and train competitive racing ostriches. Ultimately, understanding podium finishes contributes to enhancing performance, fan engagement, and strategic planning for the long-term success of ostrich racing endeavors.
 
 
-Query 5 write a query to list out the top performing trainers by win percentage <br>
+Query 5 write a query to list out the top performing trainers by win percentage. This SQL query calculates the win percentage for each trainer based on their performance in races. It first constructs a subquery to count the total number of wins and total races for each trainer, grouping the results by trainer ID, first name, and last name. The win percentage is calculated by dividing the total number of wins by the total number of races, accounting for the possibility of division by zero. The query then selects the trainer ID, concatenates the first and last names to form the trainer's full name, and computes the win percentage. Finally, the results are ordered in descending order based on the win percentage, providing a ranking of trainers by their success rate in races. <br/>
 <img width="805" alt="Screenshot 2024-03-27 at 11 13 26 AM" src="https://github.com/BG57387/Team-4/assets/150160324/6dd0aa17-12f4-45dc-965a-d0751bca53f5">
 
 Justification:<br/>
 Managers in the ostrich racing industry would find this query essential as it allows them to identify top-performing trainers based on win percentage, enabling evaluation of training effectiveness. By recognizing trainers who consistently produce winning ostriches, managers can allocate resources more effectively and replicate successful training methods. Additionally, this information can lead to opportunities for strategic partnerships, enhancing the competitiveness of racing teams and attracting sponsors.
 
 
-Query 6 write a query to display the trainers who have trained male ostriches<br>
+Query 6 write a query to display the trainers who have trained male ostriches. This SQL query retrieves the first and last names of trainers who have conducted training sessions for male ostriches. It performs an inner join between the "Trainers" table and the "Training_Sessions" table based on the trainer ID, and another inner join with the "Ostriches" table on the ostrich ID. The query filters the results to include only male ostriches (ostrichSex = "M") and groups the output by trainer ID, first name, and last name. Essentially, it provides a list of trainers who have conducted training sessions specifically for male ostriches.<br/>
 <img width="807" alt="Screenshot 2024-03-27 at 3 54 04 PM" src="https://github.com/BG57387/Team-4/assets/150160324/ea9a764f-2080-45b2-bdf9-3a2cf02a40e3">
 
 
@@ -90,7 +90,8 @@ Justification:<br/>
 Managers in the ostrich racing industry would be interested in this query as it provides a list of trainers who have trained male ostriches. Understanding which trainers specialize in training male ostriches can help managers in assigning trainers to specific birds based on their expertise and the specific needs of the racing stable. This information ensures that trainers are matched with ostriches in a way that maximizes training effectiveness and overall performance, contributing to the success of the racing team.
 
 
-Query 7 Write a query to list out  staff member ID, name, and the date of their shift who worked a shift in 2015 in asecnding order<br>
+Query 7 Write a query to list out  staff member ID, name, and the date of their shift who worked a shift in 2015 in asecnding order. This SQL query retrieves information about staff members and their schedules for the year 2015. It first selects all columns from the "Staff_Schedules" table to provide an overview of all staff schedules. Then, it selects specific columns - staff member ID, staff member name, and schedule date - from the "Staff_Members" and "Staff_Schedules" tables, respectively, joined on the staff member ID. The query filters the results to include only schedules with dates falling within the year 2015 using a regular expression pattern matching (REGEXP '2015'), and finally, it orders the output by the schedule date. Essentially, it presents a list of staff members and their schedules specifically for the year 2015.
+<br/>
 <img width="816" alt="Screenshot 2024-03-27 at 11 15 17 AM" src="https://github.com/BG57387/Team-4/assets/150160324/f4c62696-5256-4bd5-854c-7107d9a4e9df">
 
 Justification:<br/>
@@ -98,21 +99,21 @@ Managers in the racing industry would be interested in this query as it provides
 
 
 
-Query 8 write a query to display the managers that were hired in 2015<br>
+Query 8 write a query to display the managers that were hired in 2015. This SQL query selects the names, roles, contact information, and hire dates of staff members who hold the role of 'manager' and were hired in the year 2015. It retrieves this information from the "Staff_Members" table, filtering the results to include only staff members with the specified role and hire date falling within the year 2015 using regular expression pattern matching (REGEXP '2015'). Essentially, it provides a list of managers hired in the year 2015 along with their relevant details.<br/>
 <img width="814" alt="Screenshot 2024-03-27 at 11 15 45 AM" src="https://github.com/BG57387/Team-4/assets/150160324/2c03d413-77e3-4495-8317-0fb2556d3cdf">
 
 Justification:<br/>
 Managers in the racing industry would be interested in this query as it provides a record of managers hired in 2015. Tracking new managerial hires allows for maintaining accurate personnel records and understanding changes in the organizational structure. Additionally, assessing turnover rates among managerial staff and evaluating the performance of newly appointed managers are crucial for leadership stability and organizational effectiveness.
 
 
-Query 9 Write a query to list out the number of races that each ostrich has particpated in<br>
+Query 9 Write a query to list out the number of races that each ostrich has particpated in. This SQL query retrieves the names of ostriches along with the count of races they have participated in. It performs a left join between the "Ostriches" table and the "Ostriches_has_Races" table based on the ostrich ID, linking ostriches to their race participation records. The results are grouped by ostrich name, and the count of race participation is calculated for each ostrich. The output is then ordered in descending order based on the number of races each ostrich has participated in. Essentially, it provides a ranking of ostriches by their level of race participation. <br/>
 <img width="818" alt="Screenshot 2024-03-27 at 11 25 20 AM" src="https://github.com/BG57387/Team-4/assets/150160324/88771c15-c459-48a0-8e40-2da64d75974b">
 
 Justification:<br/>
 Managers in the racing industry would find this query valuable as it provides insights into the racing experience of individual ostriches. Understanding the number of races each ostrich has participated in allows for performance evaluation, targeted training programs, and effective resource allocation. By analyzing race participation data, managers can optimize the performance and welfare of their racing ostriches, ultimately enhancing the competitiveness and success of their racing operations.
 
 
-Query 10 list out the sponosors along with the events that they have sponsored<br>
+Query 10 list out the sponosors along with the events that they have sponsored. This SQL query retrieves information about sponsors and the social events they have sponsored. It selects the sponsor ID, sponsor name, contract duration, and the name of the event they sponsored. This information is obtained by joining the "Sponsors" table with the "Social_Events" table based on the event ID. The query ensures that only sponsors with corresponding events are included by using an EXISTS subquery to check for matching event IDs between the "Sponsors" and "Social_Events" tables. Essentially, it provides a list of sponsors along with the social events they have sponsored, ensuring that only valid sponsor-event relationships are considered.<br/>
 <img width="813" alt="Screenshot 2024-03-27 at 11 26 08 AM" src="https://github.com/BG57387/Team-4/assets/150160324/07bf9d3a-adea-4034-9e72-966dab725fed">
 
 Justification:<br/>
