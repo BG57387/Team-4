@@ -11,7 +11,7 @@ MIST 4610, Team 4 Project
 [Bharat Gupta](https://github.com/BG57387) <br/>
 
 
-**Problem Description**:<br/>
+# **Problem Description**:<br/>
 The project at hand is to conceptualize and develop a relational database for the dynamic operations of an Ostrich Racing Club. This database is structured around the central entity of the Ostrich table. Ostrich being each bird that is raced in the racing events hosted. In parallel, the Facility entity is crucial as it details each racing arena and training ground we maintain. Alongside these, we track the Visitor entity to log guests and bettors attending races, their interactions, and preferences. Critical associations include linking Ostriches to their Trainers, Races they participate in, and the Results they achieve
 , as well as connecting Visitors to the Events they attend. The database will store comprehensive data on these entities and their attributes to simulate real-world scenarios. We aim to deploy advanced queries from the data, offering deep insights into club operations, visitor engagement, and other relationships occurring in the racing club.  The ultimate goal is to leverage this database to streamline all functions of the races and related events.
 
@@ -22,7 +22,7 @@ These relationships form the backbone of the database and dictate how data is in
 
 
 
-**Data Model Explanation:**<br/>
+# **Data Model Explanation:**<br/>
 Our data model is structured to mirror the vibrant ecosystem of an ostrich racing club, where the interplay between ostriches, jockeys, and trainers translates into a series of detailed and interconnected relationships. At the heart of this model is the Ostrich entity, signifying each racing bird housed within our club. Every ostrich is paired with a dedicated Jockey, establishing a one-to-many relationship as each jockey can ride multiple ostriches, but each ostrich is ridden by a single jockey in races.
 
 The Ostriches are also linked to Training Sessions in a one-to-many relationship, indicating that each ostrich participates in numerous training activities designed to enhance their performance. Correspondingly, Trainers are connected to Training Sessions, as a single trainer may conduct multiple sessions for various ostriches, honing their skills for upcoming races.
@@ -35,14 +35,14 @@ Social Events, vibrant gatherings sponsored by business entities, showcase a one
 
 Lastly, Staff Members' schedules are intricately managed, presenting a one-to-many relationship with Staff Schedules. Each staff member has a specific schedule, defining their roles, shifts, and duties. This comprehensive model is crafted to ensure a seamless and integrated operation of the club, ensuring a cohesive experience for all, from the ostrich races to the social events, all within our racing facilities.
 
-**Data Dictionary**
+# **Data Dictionary**
 
 <img width="535" alt="Screenshot 2024-03-27 at 2 31 56 PM" src="https://github.com/BG57387/Team-4/assets/150160324/fd31a46e-b3f6-454a-8845-e7752660c564">
 
 <img width="323" alt="Screenshot 2024-03-27 at 2 33 21 PM" src="https://github.com/BG57387/Team-4/assets/150160324/71d8937f-e04d-48e8-ada1-2d44eb1a934e">
 
 
-**Qureies**
+# **Qureies**
 
 Query 1 list out the number of races held at each location <br/>
 <img width="809" alt="Screenshot 2024-03-27 at 11 09 25 AM" src="https://github.com/BG57387/Team-4/assets/150160324/a2cfa106-de51-46f4-b553-64e86982af0e">
