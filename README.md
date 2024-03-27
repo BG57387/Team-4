@@ -17,7 +17,8 @@ The project at hand is to conceptualize and develop a relational database for th
 To create a coherent data model for an ostrich racing club, understanding the relationships between entities is crucial. Here's an outline of potential relationships within the given entities:<br/>
 These relationships form the backbone of the database and dictate how data is interconnected. Properly defined relationships ensure the database is normalized, reducing redundancy and improving data integrity. For each Many-to-Many relationship, a junction (or associative) table is necessary to handle the associations between the entities effectively.
 
-<img width="509" alt="Screenshot 2024-03-26 at 7 41 17 PM" src="https://github.com/BG57387/Team-4/assets/150160324/1881acf2-d7c3-4fde-a2a1-c277ea6a6a5f">
+![Final](https://github.com/BG57387/Team-4/assets/150160324/6fbd90ff-535a-429e-a576-6954485976b3)
+
 
 
 **Data Model Explanation:**<br/>
