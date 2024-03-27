@@ -44,7 +44,7 @@ Lastly, Staff Members' schedules are intricately managed, presenting a one-to-ma
 <img width="323" alt="Screenshot 2024-03-27 at 2 33 21 PM" src="https://github.com/BG57387/Team-4/assets/150160324/71d8937f-e04d-48e8-ada1-2d44eb1a934e">
 
 
-# **Qureies**
+# **Queries**
 
 Query 1 list out the number of races held at each location <br/>
 <img width="809" alt="Screenshot 2024-03-27 at 11 09 25 AM" src="https://github.com/BG57387/Team-4/assets/150160324/a2cfa106-de51-46f4-b553-64e86982af0e">
