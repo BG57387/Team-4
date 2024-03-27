@@ -20,7 +20,7 @@ These relationships form the backbone of the database and dictate how data is in
 <img width="509" alt="Screenshot 2024-03-26 at 7 41 17 PM" src="https://github.com/BG57387/Team-4/assets/150160324/1881acf2-d7c3-4fde-a2a1-c277ea6a6a5f">
 
 
-Data Model Explanation:
+**Data Model Explanation:**<br/>
 Our data model is structured to mirror the vibrant ecosystem of an ostrich racing club, where the interplay between ostriches, jockeys, and trainers translates into a series of detailed and interconnected relationships. At the heart of this model is the Ostrich entity, signifying each racing bird housed within our club. Every ostrich is paired with a dedicated Jockey, establishing a one-to-many relationship as each jockey can ride multiple ostriches, but each ostrich is ridden by a single jockey in races.
 
 The Ostriches are also linked to Training Sessions in a one-to-many relationship, indicating that each ostrich participates in numerous training activities designed to enhance their performance. Correspondingly, Trainers are connected to Training Sessions, as a single trainer may conduct multiple sessions for various ostriches, honing their skills for upcoming races.
