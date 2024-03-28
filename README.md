@@ -93,7 +93,7 @@ Lastly, Staff Members' schedules are intricately managed, presenting a one-to-ma
 <br/>
 
 <br/>
-<b>Query 1:</b> List out the number of races held at each location in descending order. 
+<b>Query 1:</b> Write a query to list out the number of races held at each location in descending order. 
 
 This SQL query joins the "Races" and "Facilities" tables based on the facility ID, calculates the total number of races for each facility, and orders the result set by the total number of races in descending order. It provides a breakdown of race counts for each facility, allowing for easy identification of locations with the most races conducted. <br/>
 <img width="809" alt="Screenshot 2024-03-27 at 11 09 25 AM" src="https://github.com/BG57387/Team-4/assets/150160324/a2cfa106-de51-46f4-b553-64e86982af0e">
@@ -104,7 +104,7 @@ Managers in the racing industry benefit from knowing the frequency of races held
 
 
 <br/>
-<b>Query 2:</b> List out the average age of ostriches participating in races. 
+<b>Query 2:</b> Write a query to list out the average age of ostriches participating in races. 
 
 This SQL query calculates the average age of ostriches that have participated in races. It achieves this by selecting the average value of the "ostrichAge" column from the "Ostriches" table, filtered by the condition that there exists a corresponding record in the "Ostriches_has_Races" table where the ostrich ID matches. In essence, it computes the average age of ostriches that have been involved in races.<br/>
 <img width="811" alt="Screenshot 2024-03-27 at 11 10 29 AM" src="https://github.com/BG57387/Team-4/assets/150160324/ccaa08a5-80e1-458a-9680-f208fef28ea4">
@@ -114,7 +114,7 @@ Managers overseeing ostrich racing events or facilities would find the results o
 
 
 <br/>
-<b>Query 3:</b> List out the average attendance per race.
+<b>Query 3:</b> Write a query to list out the average attendance per race.
 
 This SQL query calculates the average attendance across all races. It selects the average value of the "attendance" column from the "Races" table and aliases it as "AverageAttendance". Essentially, it provides the mean attendance figure for all recorded races in the database.<br/> 
 <img width="805" alt="Screenshot 2024-03-27 at 11 11 13 AM" src="https://github.com/BG57387/Team-4/assets/150160324/2111d6e9-cbc1-4e29-b172-aada45dd8d29">
@@ -124,7 +124,7 @@ Managers in the racing industry find the results of this query crucial as it pro
 
 
 <br/>
-<b>Query 4:</b> List out the number of races won by each ostrich in a specfic year.
+<b>Query 4:</b> Write a query to list out the number of races won by each ostrich in a specfic year.
 
 This SQL query retrieves the total number of podium finishes for each ostrich, considering only those ostriches that have achieved at least one podium finish. It accomplishes this by joining the "Ostriches," "Ostriches_has_Races," "Races," and "Race_Results" tables, linking ostriches to their race participation and race results. The query then calculates the sum of podium finishes (1st, 2nd, and 3rd positions) for each ostrich, groups the results by ostrich ID and name, filters out ostriches with no podium finishes, and finally sorts the results in descending order based on the total number of podium finishes. Essentially, it provides a ranking of ostriches based on their success in achieving podium positions in races.<br/>
 <img width="815" alt="Screenshot 2024-03-27 at 11 12 13 AM" src="https://github.com/BG57387/Team-4/assets/150160324/8ff4e684-02b7-49a0-a4e8-7fa295b91aa2">
@@ -186,7 +186,7 @@ Justification:
 Managers in the racing industry would find this query valuable as it provides insights into the racing experience of individual ostriches. Understanding the number of races each ostrich has participated in allows for performance evaluation, targeted training programs, and effective resource allocation. By analyzing race participation data, managers can optimize the performance and welfare of their racing ostriches, ultimately enhancing the competitiveness and success of their racing operations.
 
 <br/>
-<b>Query 10:</b> List out the sponosors along with the events that they have sponsored.
+<b>Query 10:</b> Write a query to list out the sponosors along with the events that they have sponsored.
 
 This SQL query retrieves information about sponsors and the social events they have sponsored. It selects the sponsor ID, sponsor name, contract duration, and the name of the event they sponsored. This information is obtained by joining the "Sponsors" table with the "Social_Events" table based on the event ID. The query ensures that only sponsors with corresponding events are included by using an EXISTS subquery to check for matching event IDs between the "Sponsors" and "Social_Events" tables. Essentially, it provides a list of sponsors along with the social events they have sponsored, ensuring that only valid sponsor-event relationships are considered.<br/>
 <img width="813" alt="Screenshot 2024-03-27 at 11 26 08 AM" src="https://github.com/BG57387/Team-4/assets/150160324/07bf9d3a-adea-4034-9e72-966dab725fed">
