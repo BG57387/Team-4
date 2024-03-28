@@ -12,7 +12,7 @@ MIST 4610, Team 4 Project #1
 
 <br/>
 
-# **Problem Description**:<br/>
+# **Problem Description**<br/>
 The project at hand is to conceptualize and develop a relational database for the dynamic operations of an Ostrich Racing Club. This database is structured around the central entity of the Ostrich table. Ostrich being each bird that is raced in the racing events hosted. In parallel, the Facility entity is crucial as it details each racing arena and training ground we maintain. Alongside these, we track the Visitor entity to log guests and bettors attending races, their interactions, and preferences. Critical associations include linking Ostriches to their Trainers, Races they participate in, and the Results they achieve
 , as well as connecting Visitors to the Events they attend. The database will store comprehensive data on these entities and their attributes to simulate real-world scenarios. We aim to deploy advanced queries from the data, offering deep insights into club operations, visitor engagement, and other relationships occurring in the racing club.  The ultimate goal is to leverage this database to streamline all functions of the races and related events.
 
@@ -29,7 +29,7 @@ These relationships form the backbone of the database and dictate how data is in
 <br/>
 
 
-# **Data Model Explanation:**<br/>
+# **Data Model Explanation**<br/>
 Our data model is structured to mirror the vibrant ecosystem of an ostrich racing club, where the interplay between ostriches, jockeys, and trainers translates into a series of detailed and interconnected relationships. At the heart of this model is the Ostrich entity, signifying each racing bird housed within our club. Every ostrich is paired with a dedicated Jockey, establishing a one-to-many relationship as each jockey can ride multiple ostriches, but each ostrich is ridden by a single jockey in races.
 
 The Ostriches are also linked to Training Sessions in a one-to-many relationship, indicating that each ostrich participates in numerous training activities designed to enhance their performance. Correspondingly, Trainers are connected to Training Sessions, as a single trainer may conduct multiple sessions for various ostriches, honing their skills for upcoming races.
@@ -176,7 +176,7 @@ Managers in the racing industry would find this query crucial as it provides ins
 <br/>
 <br/>
 
-# **Database information:**
+# **Database Information**
 
 Name of the database: ns_Sp24_21484_Group4
 
